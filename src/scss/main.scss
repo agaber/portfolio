@@ -1,1 +1,12 @@
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+.intro-icons a {
+  color: #000;
+  text-decoration: none;
+}

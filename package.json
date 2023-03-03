@@ -1,5 +1,10 @@
 {
+  "name": "agaber-portfolio",
+  "version": "1.0.0",
+  "description": "Abrahim Gaber's resume/portfolio page.",
+  "author": "Abrahim Gaber",
   "dependencies": {
-    "bootstrap": "^5.3.0-alpha1"
+    "bootstrap": "^5.3.0-alpha1",
+    "bootstrap-icons": "^1.10.3"
   }
 }
