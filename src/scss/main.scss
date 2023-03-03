@@ -1,3 +1,5 @@
+$primary: #4169e1;
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 html,
@@ -5,7 +7,22 @@ body {
   height: 100%;
 }
 
-.intro-icons a {
-  color: #000;
+#intro #profile-pic {
+  border-radius: 50%;
+  border: 3px solid #40b726;
+}
+
+#intro .lead {
+  margin-bottom: .4rem;
+}
+
+#intro .sublead {
+  margin-bottom: 0;
+}
+
+#intro .profile-icons a {
+  color: #FFF;
+  font-size: 24px;
+  padding: 0 .2rem;
   text-decoration: none;
 }
