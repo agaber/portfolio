@@ -1,28 +1,91 @@
 $primary: #4169e1;
+$secondary: #40b726;
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url("https://fonts.googleapis.com/icon?family=Dosis:400,300,700");
+@import url("https://fonts.googleapis.com/icon?family=Product+Sans:400,300,700");
+@import url("https://fonts.googleapis.com/icon?family=Roboto:wght@300;400;500&display=swap");
 
 html,
 body {
   height: 100%;
+  font-family: "Product Sans", "Roboto", sans-serif;
 }
 
-#intro #profile-pic {
+@media only screen and (min-width: 1200px) {
+  #info-container {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 350px;
+  }
+
+  #info-container #info {
+    padding-top: 30%;
+    text-align: left;
+  }
+
+  #info-container #info {
+    #profile-pic {
+      margin-left: 60px
+    }
+
+    .lead {
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+
+    .profile-icons {
+      display: block;
+      padding-top: 15px;
+    }
+  }
+
+  #content-container {
+    padding-left: 350px;
+  }
+}
+
+#info-container {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background: linear-gradient(155deg, rgba(65, 105, 225, 0.9), rgba(0, 90, 156, 0.8)), url(../assets/background.jpg);
+  font-family: "Dosis", "Roboto", sans-serif;
+  text-align: center;
+}
+
+#info #profile-pic {
   border-radius: 50%;
-  border: 3px solid #40b726;
+  border: 3px solid $secondary;
 }
 
-#intro .lead {
+#info .lead {
   margin-bottom: .4rem;
 }
 
-#intro .sublead {
+#info .sublead {
   margin-bottom: 0;
 }
 
-#intro .profile-icons a {
+#info .profile-icons a {
   color: #FFF;
   font-size: 24px;
   padding: 0 .2rem;
   text-decoration: none;
+}
+
+h4 {
+  border-bottom: 2px solid $secondary;
+  color: $primary;
+  padding-bottom: 5px;
+  width: max-content;
+}
+
+.experience-section {
+  title {
+    display: block;
+  }
 }

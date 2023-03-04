@@ -1,5 +1,14 @@
 <!doctype html>
 
+<!-- TODO: Navbar -->
+<!-- TODO: Update Intro styles -->
+<!-- TODO: Experience and Education styles including sprites -->
+<!-- TODO: Do entire projects section -->
+<!-- TODO: Google Analytics -->
+<!-- TODO: Docker, K8s -->
+<!-- TODO: Fonts -->
+<!-- TODO: Photo -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -11,50 +20,212 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid bg-primary text-light">
-      <section id="intro">
-        <div class="row">
-
-          <div class="col-md-12 d-md-block d-lg-none text-center">
-            <img class="img-fluid" id="profile-pic" alt="Profile Picture" src="assets/profilepic2.png" />
-          </div>
-
-          <div class="col-md-12 col-lg-6 text-center">
-            <p class="lead display-4">Abrahim Gaber</p>
-            <p class="sublead">Software Engineer</p>
-            <p class="sublead">New York Metropolitan Area</p>
-            <span class="profile-icons">
-              <span>
-                <a href="https://www.linkedin.com/in/agaber/" rel="noopener noreferrer" target="_blank" title="LinkedIn">
-                  <i class="bi bi-linkedin"></i>
-                </a>
-              </span>
-              <span>
-                <a href="https://github.com/agaber" rel="noopener noreferrer" target="_blank" title="GitHub">
-                  <i class="bi bi-github"></i>
-                </a>
-              </span>
-              <span>
-                <a href="mailto:abrahim.gaber@gmail.com" target="_blank" title="Email me">
-                  <i class="bi bi-envelope-at-fill"></i>
-                </a>
-              </span>
-              <span>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vSHomHFHKQ_o6EHHPKZHssZc3gfVRRNEBlwqnTbOZMeD_rUrTcRI0qI51B6bXZvIUmd6BphP6SNtvIO/pub" rel="noopener noreferrer" target="_blank" title="CV">
-                  <i class="bi bi-file-earmark-text-fill"></i>
-                </a>
-              </span>
+    <div id="info-container" class="container-fluid bg-primary p-3 text-light">
+      <section id="info">
+        <div>
+          <img id="profile-pic" alt="Profile Picture" src="assets/profilepic2.png" />
+          <p class="lead display-4">Abrahim Gaber</p>
+          <p class="sublead">Software Engineer</p>
+          <p class="sublead">New York Metropolitan Area, USA</p>
+          <span class="profile-icons">
+            <span>
+              <a href="https://www.linkedin.com/in/agaber/" rel="noopener noreferrer" target="_blank" title="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
             </span>
-          </div>
+            <span>
+              <a href="https://github.com/agaber" rel="noopener noreferrer" target="_blank" title="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+            </span>
+            <span>
+              <a href="mailto:abrahim.gaber@gmail.com" target="_blank" title="Email me">
+                <i class="bi bi-envelope-at-fill"></i>
+              </a>
+            </span>
+            <span>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vSHomHFHKQ_o6EHHPKZHssZc3gfVRRNEBlwqnTbOZMeD_rUrTcRI0qI51B6bXZvIUmd6BphP6SNtvIO/pub" rel="noopener noreferrer" target="_blank" title="CV">
+                <i class="bi bi-file-earmark-text-fill"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </section>
+    </div>
 
-          <div class="col-lg-6 d-none d-lg-block text-centers">
-            <img class="img-fluid" id="profile-pic" alt="Profile Picture" src="assets/profilepic2.png" />
+    <div id="content-container" class="container-md my-5">
+      <section id="about">
+        <div class="row">
+          <div class="col-2"><h4>About me</h4></div>
+          <div class="col-md-12 col-lg-10 col-xl-12">
+            <p>Hi! 👋 My name is Abrahim but feel free to just call me Abe. 🙂</p>
+
+            <p>
+              I'm a software engineer by trade with professional experience deliving products at
+              scale to solve challenging problems with elegant solutions. I consider myself a
+              generalist and a full stack engineer with a foundation in computer science
+              fundamentals. In my professional career I have worked with distributed cloud systems,
+              SQL and NoSQL databases, a variety of frontend frameworks, data processing and ETL
+              pipelines and more using Big Tech proprietary tools.
+            </p>
+
+            <p>
+              Over the past few years I have also increasingly taken on more leadership
+              responsibilities. I embrace the opportunity to design simple solutions to complex
+              problems, propose technical and product direction and mentor friends and colleagues.
+              All that said, there is still a lot for me to learn and I also look forward to learning
+              from people who are smarter than me and building friendships.
+            </p>
+
+            <p>
+              They say "love what you do and never work a day in your life" and I think I agree. I
+              have no interest in finding a "real job". I enjoy solving problems, being creative
+              and learning new things. I am open to new opportunities to apply my skills in a way
+              that helps make the world better and more fun for everyone.
+            </p>
           </div>
         </div>
       </section>
 
+      <section id="experience">
+        <div class="row">
+          <div class="col-2"><h4>Experience</h4></div>
+          <div class="col-md-12 col-lg-10">
+            <div id="experience-yt" class="experience-section">
+              <title>Senior Software Engineer / TL, Scaled Music Curation</title>
+              <div>
+                <span class="company yt">YouTube</span>
+                <span class="year">2018-2023</span>
+              </div>
+              <ul>
+                <li>
+                  Designed scalable systems for managing YouTube’s vast corpus of artist and user generated music content which resulted in a 43% improvement in key music metadata metrics.
+                </li>
+                <li>
+                  Team Lead (TL); defined near + long term objectives and strategies; maintained high system availability; mentorship.
+                </li>
+                <li>
+                  Hands-on full-stack engineer; Polymer & TypeScript UI; Microservices; REST and RPC APIs; Spanner database design & optimization; Data Analytics and custom Dashboarding; Java Readability reviewer/mentor.
+                </li>
+              </ul>
+            </div>
 
+            <div id="experience-goog" class="experience-section">
+              <title>Senior Software Engineer, CorpEng & Enterprise Legal Apps</title>
+              <div>
+                <span class="company goog">Google</span>
+                <span class="year">2015-2018</span>
+              </div>
+              <ul>
+                <li>
+                  Indexed legal documents and made them available for structured and unstructured search to Google’s legal teams.
+                </li>
+                <li>
+                  Created ETL (extract, transform, load) pipelines using Google Cloud Platform (GCP) and proprietary distributed systems.
+                </li>
+                <li>
+                  Full stack contributions. AngularJS; AppEngine; BigQuery; Google Cloud SQL; Google Cloud PubSub; Hibernate; JavaScript; Java.
+                </li>
+              </ul>
+            </div>
+
+            <div id="experience-goog" class="experience-section">
+              <title>Software Engineer, Google Ads</title>
+              <div>
+                <span class="company goog">Google</span>
+                <span class="year">2008-2015</span>
+              </div>
+              <ul>
+                <li>
+                  Designed buy-side products that enabled clients to traffic highly visible ad campaigns efficiently.
+                </li>
+                <li>
+                  Built big data pipelines by leveraging Google proprietary distributed systems, NoSQL databases, Master Election and async notification systems (pub/sub).
+                </li>
+              </ul>
+            </div>
+
+            <div id="experience-dclk" class="experience-section">
+              <title>Software Developer</title>
+              <div>
+                <span class="company dclk">DoubleClick</span>
+                <span class="year">2008</span>
+              </div>
+              <ul>
+                <li>
+                  Built web applications that let customers manage their ad campaigns using C# and ASP.NET.
+                </li>
+              </ul>
+            </div>
+
+            <div id="experience-medidata" class="experience-section">
+              <title>Software Developer</title>
+              <div>
+                <span class="company medidata">Medidata Solutions</span>
+                <span class="year">2005-2008</span>
+              </div>
+              <ul>
+                <li>
+                  Integrated custom functionality into base enterprise web applications that captured and reported on clinical trial data.
+                </li>
+                <li>
+                  Delivered results using C#, ASP.NET and Microsoft SQL Server.
+                </li>
+              </ul>
+            </div>
+
+            <div id="experience-4gd" class="experience-section">
+              <title>Computer Hardware Technician</title>
+              <div>
+                <span class="company 4gd">4G DATA SYSTEMS</span>
+                <span class="year">2004 - 2005</span>
+              </div>
+              <ul>
+                <li>
+                  Repaired IBM PC compatible computer hardware, servers, laptops, and printers.
+                </li>
+                <li>
+                  Certified CompTIA A+ and Network+ professional.
+                </li>
+              </ul>
+            </div>
+          </div>
+      </section>
+
+      <section id="education">
+        <div class="row">
+          <div class="col-2"><h4>Education</h4></div>
+          <div class="col-md-12 col-lg-10">
+            <div id="edu" class="edu-section">
+              <title>B.S. Computer Science</title>
+              <div>
+                <span class="company csi">City University of New York -- College of Staten Island</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="row">
+          <div class="col-2"><h4>Skills</h4></div>
+          <div class="col-md-12 col-lg-10">
+            <span class="badge badge-secondary">Java</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="row">
+          <div class="col-2"><h4>Projects</h4></div>
+          <div class="col-md-12 col-lg-10">
+            <p>Reddit bots</p>
+            <p>Vote App</p>
+          </div>
+        </div>
+      </section>
     </div>
+
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
