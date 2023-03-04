@@ -84,8 +84,64 @@ h4 {
   width: max-content;
 }
 
-.experience-section {
-  title {
-    display: block;
-  }
+.experience-section .title {
+  font-weight: bold;
+}
+
+.experience-section .subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+#yt {
+  background: url(../assets/spritesheet.png) -80px 0;
+  height: 80px;
+  margin-top: -10px;
+  width: 80px;
+  z-index: -1;
+}
+
+#goog {
+  background: url(../assets/spritesheet.png) 0 0;
+  height: 80px;
+  margin-top: -5px;
+  width: 80px;
+  z-index: -1;
+}
+
+#goog1 {
+  height: 80px;
+  width: 80px;
+}
+
+#dclk {
+  background: url(../assets/spritesheet.png) -160px 0;
+  height: 80px;
+  margin-top: -15px;
+  width: 80px;
+  z-index: -1;
+}
+
+#medidata {
+  background: url(../assets/spritesheet.png) -240px 0;
+  height: 80px;
+  margin-top: -15px;
+  width: 80px;
+  z-index: -1;
+}
+
+#fourgd {
+  background: url(../assets/spritesheet.png) -320px 0;
+  height: 80px;
+  margin-top: -15px;
+  width: 80px;
+  z-index: -1;
+}
+
+#csi {
+  background: url(../assets/spritesheet.png) -400px 0;
+  height: 80px;
+  margin-top: -15px;
+  width: 80px;
+  z-index: -1;
 }
