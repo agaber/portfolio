@@ -104,13 +104,17 @@ section {
   padding-bottom: 2.5rem;
 }
 
-.experience-section .title {
+section .title {
   font-weight: bold;
 }
 
-.experience-section .subtitle {
+section .subtitle {
   display: flex;
   justify-content: space-between;
+}
+
+#skills .skills-section {
+  padding: 10px 0;
 }
 
 #yt {
