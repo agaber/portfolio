@@ -48,6 +48,14 @@ body {
   #content-container {
     padding-left: 350px;
   }
+
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
+.nav-link {
+  white-space: nowrap;
 }
 
 #info-container {
