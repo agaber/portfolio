@@ -297,6 +297,7 @@
               <div class="title">Platforms, Frameworks & Tools</div>
               <span class="badge bg-primary">Kubernetes</span>
               <span class="badge bg-primary">gRPC</span>
+              <span class="badge bg-primary">Angular</span>
               <span class="badge bg-primary">Spring</span>
               <span class="badge bg-primary">MongoDB</span>
               <span class="badge bg-primary">MySQL</span>
@@ -328,9 +329,40 @@
       <section id="projects">
         <div class="row">
           <div class="col-2"><h4>Projects</h4></div>
-          <div class="col-md-12 col-lg-10 col-xl-12">
-            <div class="title">Reddit bots</div>
-            <div class="title">Vote App</div>
+          <div id="project-cards" class="col-md-12 col-lg-10 col-xl-12">
+            <div class="card">
+              <img
+                class="card-img-top"
+                  src="https://www.logo.wine/a/logo/Reddit/Reddit-Vertical-Complete-White-Dark-Background-Logo.wine.svg" alt="Reddit card image" />
+              <div class="card-body">
+                <h5 class="card-title">Reddit Automation Bots</h5>
+                <p class="card-text">
+                  As moderator of a subreddit dedicated to a popular professional sports team in NY,
+                  I built tools to automate the management of stats presentation and game day threads
+                  using Python, PRAW and Heroku.
+                </p>
+                <a class="btn btn-primary"
+                  href="https://github.com/agaber/reddit-nyknicks-sidebarbot/"
+                  target="_blank">Check out the source code</a>
+              </div>
+            </div>
+
+            <div id="votecard" class="card">
+              <img class="card-img-top" src="assets/agaberdev.png" alt="Reddit card image" />
+              <div class="card-body">
+                <h5 class="card-title">Vote App</h5>
+                <p class="card-text">
+                  A web app that lets users create elections and vote on them using an
+                  <a href="https://en.wikipedia.org/wiki/Instant-runoff_voting" target="_blank">Instant-runoff</a>
+                  voting algorithm. The site was built with Kubernetes, Java, Spring Boot, MongoDB,
+                  Angular and TypeScript. You can check out the code on
+                  <a href="https://github.com/agaber/vote" target="_blank">GitHub</a>
+                </p>
+                <a class="btn btn-primary"
+                  href="https://vote.agaber.dev/"
+                  target="_blank">Try it!</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
