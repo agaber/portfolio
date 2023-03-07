@@ -187,3 +187,15 @@ section .subtitle {
   font-size: 12px;
   text-align: center;
 }
+
+#reddit-bot-img {
+  background: url(../assets/spritesheet.png) 0 -80px;
+  height: 191px;
+  width: 286px;
+}
+
+#vote-app-img {
+  background: url(../assets/spritesheet.png) -286px -80px;
+  height: 191px;
+  width: 286px;
+}
